@@ -1,0 +1,52 @@
+<!--Vincent Shi, 7-8 EVEN, 11/22, Calorie Counter-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calorie.js"></script>
+</head>
+<body onload="initialize();">
+    <h1>Calorie Counter</h1>
+    <p>For keyboard users, if you are using windows, press Shift-Alt and the letter of the button for it to work. Ctrl-Option for Mac</p>
+    <h2>Total Calories: <span id="totalCalories"></span></h2>
+    <h2>Appetizer</h2>
+    <p>Your Appetizer's carbohydrates: <span id="appCarbs"></span></p>
+    <button onclick="subtract(1,1);" accesskey="c">Subtract 1 Carb(c)</button>
+    <button onclick="add(1,1);" accesskey="d">Add 1 Carb(d)</button>
+    <p>Your Appetizer's fat: <span id="appFats"></span></p>
+    <button onclick="subtract(2,1);" accesskey="e">Subtract 1 Fat(e)</button>
+    <button onclick="add(2,1);" accesskey="f">Add 1 Fat(f)</button>
+    <p>Your Appetizer's protein: <span id="appPros"></span></p>
+    <button onclick="subtract(3,1);" accesskey="g">Subtract 1 Protein(g)</button>
+    <button onclick="add(3,1);" accesskey="h">Add 1 Protein(h)</button>
+    <p>Your Appetizer's calories: <span id="appTotal"></span></p>
+
+    <h2>Entree</h2>
+    <p>Your Entree's carbohydrates: <span id="entreeCarbs"></span></p>
+    <button onclick="subtract(4,1);" accesskey="j">Subtract 1 Carb(j)</button>
+    <button onclick="add(4,1);" accesskey="k">Add 1 Carb(k)</button>
+    <p>Your Entree's fat: <span id="entreeFats"></span></p>
+    <button onclick="subtract(5,1);" accesskey="l">Subtract 1 Fat(l)</button>
+    <button onclick="add(5,1);" accesskey="m">Add 1 Fat(m)</button>
+    <p>Your Entree's protein: <span id="entreePros"></span></p>
+    <button onclick="subtract(6,1);" accesskey="n">Subtract 1 Protein(n)</button>
+    <button onclick="add(6,1);" accesskey="o">Add 1 Protein(o)</button>
+    <p>Your Entree's calories: <span id="entreeTotal"></span></p>
+
+    <h2>Dessert</h2>
+    <p>Your Dessert's carbohydrates: <span id="dessertCarbs"></span></p>
+    <button onclick="subtract(7,1);" accesskey="p">Subtract 1 Carb(p)</button>
+    <button onclick="add(7,1);" accesskey="q">Add 1 Carb(q)</button>
+    <p>Your Dessert's fat: <span id="dessertFats"></span></p>
+    <button onclick="subtract(8,1);" accesskey="r">Subtract 1 Fat(r)</button>
+    <button onclick="add(8,1);" accesskey="s">Add 1 Fat(s)</button>
+    <p>Your Dessert's protein: <span id="dessertPros"></span></p>
+    <button onclick="subtract(9,1);" accesskey="v">Subtract 1 Protein(v)</button>
+    <button onclick="add(9,1);" accesskey="w">Add 1 Protein(w)</button>
+    <p>Your Dessert's calories: <span id="dessertTotal"></span></p>
+</body>
+</html> 
